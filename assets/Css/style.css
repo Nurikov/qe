@@ -1,0 +1,202 @@
+body {
+  background: white;
+   font-size: 18px;
+   color: #333;
+}
+
+
+.container{
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.intro{
+  width: 100%;
+  height: 100vh;
+  background: url("https://i1.wp.com/wallpapersfortech.com/wp-content/uploads/2021/01/Cyber-Wallpaper-4k.png?fit=5120%2C2160&ssl=1");
+  background-size: cover;
+}
+.intro_inner{
+  padding-top: 40px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.intro_title{
+  font-family: 'Kaushan Script',cursive;
+  color: white;
+  font-size: 120px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: normal;
+}
+.header{
+  padding-top: 30px;
+  width: 100%;
+  position: absolute;
+  top: 1;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+}
+.header__inner{
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+.nav{
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.nav1{
+display: inline-block;
+vertical-align: top;
+margin: 0 15px;
+color: white;
+text-decoration: none;
+transition: color .2s linear;
+}
+.nav1:hover{
+  color: yellow;
+}
+
+
+.geninfo{
+  width: 100%;
+  height: 100vh;
+  background: url("https://i.pinimg.com/originals/69/0c/28/690c286691a23d7533ea3645868c7b32.jpg");
+  background-size: cover;
+  }
+.gen_title{
+  font-family: 'Kaushan Script',cursive;
+  color: orange;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: normal;
+}
+.table{
+  background-color: Orange;
+  color: black;
+  width: 30%;
+  height: 30vh;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+}
+.text1{
+    float: left;
+    background: Orange;
+    border: 1px solid black;
+    padding: 10px;
+    margin-right: 20px;
+    width: 40%;
+}
+h5{
+  color: black;
+}
+.layer1 {
+    background: Orange;
+    border: 1px solid black;
+    padding: 10px;
+    margin-right: 20px;
+    width: 100%;
+}
+
+.service{
+  width: 100%;
+  height: 100vh;
+  background: url("https://i.pinimg.com/originals/f1/4b/3c/f14b3cb027380c7e4f1c5579676a2472.jpg");
+  background-size: cover;
+  top: 0;
+  left: 10;
+  right: 10;
+}
+.gen_title1{
+  font-family: 'Kaushan Script',cursive;
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: normal;
+  padding-top: 40px;
+}
+
+.block{
+  display: flex;
+}
+.block_item{
+  flex: 1 1 0;
+  padding-left: 80px;
+  padding-right: 30px;
+  position: relative;
+  margin-top: 70px;
+}
+.icon{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.block_title{
+  color: white;
+  text-transform: uppercase;
+  font-size: 19px;
+  margin-bottom: 10px;
+  }
+.block_text{
+  color: white;
+  font-size: 18px;
+}
+#ingredient{
+    color: #f00;
+}
+.layer2 {
+    color: grey;
+    background: white;
+    border: 1px solid black;
+    margin-right: 20px;
+    width: 100%;
+    max-width: 700px;
+    padding: 50px;
+    text-align: center;
+}
+
+.conclusion{
+  width: 100%;
+  height: 100vh;
+  background: url("https://papers.co/wallpaper/papers.co-vs30-abstract-background-line-shape-gray-minimal3d-pattern-bw-dark-28-wallpaper.jpg");
+  background-size: cover;
+}
+.nav2{
+  margin: 0 30px;
+  float: right;
+  clear: left;
+}
+.form{
+  float: left;
+  margin: auto;
+  color: Black;
+  border: 3px solid black;
+  margin-right: 20px;
+  width: 100%;
+  max-width: 420px;
+  background: white;
+  font-size: 15px;
+  text-align: center;
+}
+.text2{
+  float: left;
+  background: White;
+  border: 3px solid black;
+  padding: 10px;
+  margin-right: 20px;
+  width: 40%;
+}
